@@ -1,0 +1,25 @@
+{
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "parser": "babel",
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": { "parser": "json" }
+    },
+    {
+      "files": "*.json",
+      "options": { "parser": "json" }
+    },
+    {
+      "files": "*.less",
+      "options": { "parser": "less" }
+    },
+    {
+      "files": "*.html",
+      "options": { "parser": "html" }
+    }
+  ]
+}
